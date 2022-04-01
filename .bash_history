@@ -14,3 +14,16 @@ ls -al
 git status
 git commit -m"first commit"file1
 git log
+git push -u origin master
+ll
+git branch
+git branch branch1
+git checkout branch1
+git branch
+touch file3
+ll
+git checkout master
+ll
+git add file3
+git commit -m "third commit" file3
+git push -u origin master
